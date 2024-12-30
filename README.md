@@ -1,0 +1,1 @@
+This repository demonstrates a common C programming error: a buffer overflow. The `bug.c` file contains code that attempts to access memory beyond the bounds of an array.  The `bugSolution.c` shows how to fix this error using array bounds checking or dynamic memory allocation.
