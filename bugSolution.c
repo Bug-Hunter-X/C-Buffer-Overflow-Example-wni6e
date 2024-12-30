@@ -1,0 +1,1 @@
+int main() { int arr[5] = {1, 2, 3, 4, 5}; // Check array boundaries before accessing elements  if ((arr + 5) < (arr + sizeof(arr)/sizeof(arr[0]))) {   *(arr + 4) = 10; } else {    printf("Error: Array index out of bounds\n"); } return 0; }
